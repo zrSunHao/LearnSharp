@@ -29,7 +29,7 @@
             {
                 //值类型都有默认无参构造函数
                 //通过无参构造函数进行初始化
-                Complex result = new Complex();
+                var result = new Complex();
 
                 //对复数的实数和虚数赋值
                 result.Real = complex1.Real + complex1.Real;

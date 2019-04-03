@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Polymorphic\Animal.cs" />
+    <Compile Include="Polymorphic\Horse.cs" />
+    <Compile Include="Polymorphic\Sheep.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="OperatorLoading\OperatorLoading.cs" />
