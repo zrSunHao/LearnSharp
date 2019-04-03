@@ -10,6 +10,10 @@ namespace LearnSharp.CustomEvent
     {
         static void Main(string[] args)
         {
+            
         }
+
+
+        
     }
 }
