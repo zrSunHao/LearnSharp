@@ -24,6 +24,9 @@ namespace LearnSharp.ChainDelegate
             delegateChain += dtStatic;
             delegateChain += dtInstance;
 
+            //使用“-”运算符把dtStatic委托从委托链中移除
+            delegateChain -= dtStatic;
+
             //调用委托链
             delegateChain();
 
