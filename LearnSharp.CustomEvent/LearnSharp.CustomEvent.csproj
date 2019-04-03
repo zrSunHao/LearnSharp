@@ -43,7 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bridegroom.cs" />
+    <Compile Include="Bridegroom1.cs" />
     <Compile Include="Friend.cs" />
+    <Compile Include="Friend1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
