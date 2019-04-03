@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSharp.CustomInterface"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{19BAE7EB-0994-4601-B1FC-517C08C6EB7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSharp.CustomDelegate", "LearnSharp.CustomDelegate\LearnSharp.CustomDelegate.csproj", "{6B77BEC3-5769-4B98-991A-4443034A109F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{19BAE7EB-0994-4601-B1FC-517C08C6EB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19BAE7EB-0994-4601-B1FC-517C08C6EB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19BAE7EB-0994-4601-B1FC-517C08C6EB7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B77BEC3-5769-4B98-991A-4443034A109F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B77BEC3-5769-4B98-991A-4443034A109F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B77BEC3-5769-4B98-991A-4443034A109F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B77BEC3-5769-4B98-991A-4443034A109F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
