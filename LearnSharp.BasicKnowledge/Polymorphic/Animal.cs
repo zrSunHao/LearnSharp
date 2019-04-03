@@ -28,5 +28,10 @@ namespace LearnSharp.BasicKnowledge.Polymorphic
         {
             Console.WriteLine("动物开始发出声音！");
         }
+
+        public void Eat()
+        {
+            Console.WriteLine("动物正在进食！");
+        }
     }
 }

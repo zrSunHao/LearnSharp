@@ -12,7 +12,7 @@ namespace LearnSharp.BasicKnowledge
     {
         static void Main(string[] args)
         {
-            #region 运算符重载
+            #region 第三章 运算符重载
 
             //初始化两个复数
             //var complex1 = new Complex(1, 2);
@@ -25,13 +25,17 @@ namespace LearnSharp.BasicKnowledge
 
             #endregion
 
-            #region 多态
+            #region 第五章 多态
 
-            Animal horse = new Horse();
-            horse.Voice();
+            //Animal horse = new Horse();
+            //horse.Voice();
 
-            Animal sheep = new Sheep();
-            sheep.Voice();
+            //Animal sheep = new Sheep();
+            //sheep.Voice();
+
+            //Horse horse1 = new Horse();
+            //horse1.Eat();
+            //((Animal)horse1).Eat();
 
             #endregion
 
