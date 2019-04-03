@@ -39,6 +39,8 @@ namespace LearnSharp.BasicKnowledge
 
             #endregion
 
+
+
             Console.Read();
         }
     }
