@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSharp.CustomType", "Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSharp.CustomGeneric", "LearnSharp.CustomGeneric\LearnSharp.CustomGeneric.csproj", "{0FF9D9F5-CC62-4EDE-AD6D-9A4E5A6513A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSharp.CustomGeneric1", "LearnSharp.CustomGeneric1\LearnSharp.CustomGeneric1.csproj", "{B3D5C996-576C-47DC-B74D-86D5680259B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0FF9D9F5-CC62-4EDE-AD6D-9A4E5A6513A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FF9D9F5-CC62-4EDE-AD6D-9A4E5A6513A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FF9D9F5-CC62-4EDE-AD6D-9A4E5A6513A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3D5C996-576C-47DC-B74D-86D5680259B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D5C996-576C-47DC-B74D-86D5680259B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D5C996-576C-47DC-B74D-86D5680259B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D5C996-576C-47DC-B74D-86D5680259B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
