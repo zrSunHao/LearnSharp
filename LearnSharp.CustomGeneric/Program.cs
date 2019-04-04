@@ -2,9 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LearnSharp.CustomGeneric
 {
@@ -24,21 +21,52 @@ namespace LearnSharp.CustomGeneric
 
             #endregion
 
-            //Dictionary<,>是一个开放类型，它有两个类型参数
-            Type t = typeof(Dictionary<,>);
-            Console.WriteLine("是否为开放类型：" + t.ContainsGenericParameters);
 
-            //DictionaryStringKey<>也是一个开放类型，但它只有一个参数
-            t = typeof(DictionaryStringKey<>);
-            Console.WriteLine("是否为开放类型：" + t.ContainsGenericParameters);
+            #region 类型参数
 
-            //DictionaryStringKey<int>是一个封闭类型
-            t = typeof(DictionaryStringKey<int>);
-            Console.WriteLine("是否为开放类型：" + t.ContainsGenericParameters);
+            ////Dictionary<,>是一个开放类型，它有两个类型参数
+            //Type t = typeof(Dictionary<,>);
+            //Console.WriteLine("是否为开放类型：" + t.ContainsGenericParameters);
 
-            //Dictionary<int,int>是一个封闭类型
-            t = typeof(Dictionary<int, int>);
-            Console.WriteLine("是否为开放类型：" + t.ContainsGenericParameters);
+            ////DictionaryStringKey<>也是一个开放类型，但它只有一个参数
+            //t = typeof(DictionaryStringKey<>);
+            //Console.WriteLine("是否为开放类型：" + t.ContainsGenericParameters);
+
+            ////DictionaryStringKey<int>是一个封闭类型
+            //t = typeof(DictionaryStringKey<int>);
+            //Console.WriteLine("是否为开放类型：" + t.ContainsGenericParameters);
+
+            ////Dictionary<int,int>是一个封闭类型
+            //t = typeof(Dictionary<int, int>);
+            //Console.WriteLine("是否为开放类型：" + t.ContainsGenericParameters);
+
+            #endregion
+
+
+            #region 泛型中的静态字段和静态函数问题
+
+            //TypeWithStaticField<int>.Field = "一";
+            //TypeWithStaticField<string>.Field = "二";
+            //TypeWithStaticField<Guid>.Field = "三";
+            //TypeWithStaticField<Guid>.Field = "四";
+
+            //NoGenericTypeWithStaticField.Field = "非泛型类静态字段一";
+            //NoGenericTypeWithStaticField.Field = "非泛型类静态字段二";
+            //NoGenericTypeWithStaticField.Field = "非泛型类静态字段三";
+
+            //NoGenericTypeWithStaticField.OutField();
+
+            ////证明每个封闭类型都有一个静态字段
+            //TypeWithStaticField<int>.OutField();
+            //TypeWithStaticField<string>.OutField();
+            //TypeWithStaticField<Guid>.OutField();
+
+
+            #endregion
+
+            var li = "9878978";
+            var lis = li.GetType();
+            Console.WriteLine(lis.Name);
 
             Console.Read();
         }
