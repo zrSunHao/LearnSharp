@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LearnSharp.CustomType
+namespace LearnSharp.CustomType   
 {
     class Program
     {
