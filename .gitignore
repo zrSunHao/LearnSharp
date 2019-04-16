@@ -22,3 +22,5 @@ LearnSharp.CustomTcp/bin/
 LearnSharp.CustomTcp/obj/
 LearnSharp.CustomTcpClient/obj/
 LearnSharp.CustomTcpClient/bin/
+LearnSharp.CustomUdpClient/obj/
+LearnSharp.CustomUdpClient/bin/
