@@ -19,7 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSharp.CustomGeneric", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSharp.CustomGeneric1", "LearnSharp.CustomGeneric1\LearnSharp.CustomGeneric1.csproj", "{B3D5C996-576C-47DC-B74D-86D5680259B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSharp.CustomTcp", "LearnSharp.CustomTcp\LearnSharp.CustomTcp.csproj", "{6480F265-E587-42AC-A739-E0247CF64751}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSharp.CustomTcpServer", "LearnSharp.CustomTcp\LearnSharp.CustomTcpServer.csproj", "{6480F265-E587-42AC-A739-E0247CF64751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSharp.CustomTcpClient", "LearnSharp.CustomTcpClient\LearnSharp.CustomTcpClient.csproj", "{B03A49FE-F4E5-4A89-A262-7C01C5D79E3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{6480F265-E587-42AC-A739-E0247CF64751}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6480F265-E587-42AC-A739-E0247CF64751}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6480F265-E587-42AC-A739-E0247CF64751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B03A49FE-F4E5-4A89-A262-7C01C5D79E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03A49FE-F4E5-4A89-A262-7C01C5D79E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03A49FE-F4E5-4A89-A262-7C01C5D79E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03A49FE-F4E5-4A89-A262-7C01C5D79E3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
