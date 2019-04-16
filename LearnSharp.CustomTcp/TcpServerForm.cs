@@ -174,7 +174,7 @@ namespace LearnSharp.CustomTcp
             try
             {
                 writer.Write(state.ToString());
-                Thread.Sleep(5000);
+                Thread.Sleep(100);
                 writer.Flush();
                 ReceivelistBox.Invoke(showMessageCallback, "发送完毕");
                 sendText.Invoke(resetMessageCallback, null);

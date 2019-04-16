@@ -97,7 +97,7 @@
             this.startListenBtn.Name = "startListenBtn";
             this.startListenBtn.Size = new System.Drawing.Size(75, 23);
             this.startListenBtn.TabIndex = 6;
-            this.startListenBtn.Text = "开始监听";
+            this.startListenBtn.Text = "连接服务器";
             this.startListenBtn.UseVisualStyleBackColor = true;
             this.startListenBtn.Click += new System.EventHandler(this.startListenBtn_Click);
             // 

@@ -168,7 +168,7 @@ namespace LearnSharp.CustomTcpClient
             try
             {
                 writer.Write(state.ToString());
-                Thread.Sleep(5000);
+                Thread.Sleep(100);
                 writer.Flush();
                 
                 sendText.Invoke(resetMessageCallback, null);
