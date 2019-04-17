@@ -24,3 +24,7 @@ LearnSharp.CustomTcpClient/obj/
 LearnSharp.CustomTcpClient/bin/
 LearnSharp.CustomUdpClient/obj/
 LearnSharp.CustomUdpClient/bin/
+LearnSharp.CustomThread/bin/
+LearnSharp.CustomThread/obj/
+CustomThread2/obj/
+CustomThread2/bin/

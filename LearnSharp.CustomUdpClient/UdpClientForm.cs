@@ -53,6 +53,7 @@ namespace LearnSharp.CustomUdpClient
             }
 
             Thread receiveThread = new Thread(ReceiveMessage);
+            
             receiveThread.Start();
         }
 

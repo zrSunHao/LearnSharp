@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSharp.CustomTcpClient"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSharp.CustomUdpClient", "LearnSharp.CustomUdpClient\LearnSharp.CustomUdpClient.csproj", "{CC9E449F-6BE9-4495-B90B-5F0D0BAAFE53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSharp.CustomThread", "LearnSharp.CustomThread\LearnSharp.CustomThread.csproj", "{9D3C8157-C4A4-473E-81B6-2D4EE9F5A6F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSharp.CustomThread2", "CustomThread2\LearnSharp.CustomThread2.csproj", "{5EA7FC3C-84D0-441F-83C8-E796DBF26DF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{CC9E449F-6BE9-4495-B90B-5F0D0BAAFE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC9E449F-6BE9-4495-B90B-5F0D0BAAFE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC9E449F-6BE9-4495-B90B-5F0D0BAAFE53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D3C8157-C4A4-473E-81B6-2D4EE9F5A6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D3C8157-C4A4-473E-81B6-2D4EE9F5A6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D3C8157-C4A4-473E-81B6-2D4EE9F5A6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D3C8157-C4A4-473E-81B6-2D4EE9F5A6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA7FC3C-84D0-441F-83C8-E796DBF26DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA7FC3C-84D0-441F-83C8-E796DBF26DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA7FC3C-84D0-441F-83C8-E796DBF26DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA7FC3C-84D0-441F-83C8-E796DBF26DF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
